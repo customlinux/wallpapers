@@ -1,0 +1,205 @@
+<background>
+  <starttime>
+    <year>2018</year>
+    <month>11</month>
+    <day>11</day>
+    <hour>3</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+
+<!-- This animation will start at 3 AM. Stay for 2.75 hours. -->
+<static>
+<duration>9900.0</duration>
+<file>/usr/share/backgrounds/gnome/3.jpg</file>
+</static>
+
+<!-- We transition to 6 AM and stay .75 hours. -->
+
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/3.jpg</from>
+<to>/usr/share/backgrounds/gnome/6.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/6.jpg</file>
+</static>
+
+<!-- Transition to 7 AM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/6.jpg</from>
+<to>/usr/share/backgrounds/gnome/7.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/7.jpg</file>
+</static>
+
+<!-- Transition to 8 AM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/7.jpg</from>
+<to>/usr/share/backgrounds/gnome/8.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/8.jpg</file>
+</static>
+
+<!-- Transition to 9 AM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/8.jpg</from>
+<to>/usr/share/backgrounds/gnome/9.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/9.jpg</file>
+</static>
+
+<!-- Transition to 10 AM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/9.jpg</from>
+<to>/usr/share/backgrounds/gnome/10.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/10.jpg</file>
+</static>
+
+<!-- Transition to 11 AM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/10.jpg</from>
+<to>/usr/share/backgrounds/gnome/11.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/11.jpg</file>
+</static>
+
+<!-- Transition to 12 PM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/11.jpg</from>
+<to>/usr/share/backgrounds/gnome/12.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/12.jpg</file>
+</static>
+
+<!-- Transition to 1 PM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/12.jpg</from>
+<to>/usr/share/backgrounds/gnome/13.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/13.jpg</file>
+</static>
+
+<!-- Transition to 2 PM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/13.jpg</from>
+<to>/usr/share/backgrounds/gnome/14.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/14.jpg</file>
+</static>
+
+<!-- Transition to 3 PM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/14.jpg</from>
+<to>/usr/share/backgrounds/gnome/15.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/15.jpg</file>
+</static>
+
+<!-- Transition to 4 PM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/15.jpg</from>
+<to>/usr/share/backgrounds/gnome/16.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/16.jpg</file>
+</static>
+
+<!-- Transition to 5 PM and stay for .75 hours. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/16.jpg</from>
+<to>/usr/share/backgrounds/gnome/17.jpg</to>
+</transition>
+
+<static>
+<duration>2700.0</duration>
+<file>/usr/share/backgrounds/gnome/17.jpg</file>
+</static>
+
+<!-- Transition to 6 PM and stay for 1 hour. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/17.jpg</from>
+<to>/usr/share/backgrounds/gnome/18.jpg</to>
+</transition>
+
+<static>
+<duration>3600.0</duration>
+<file>/usr/share/backgrounds/gnome/18.jpg</file>
+</static>
+
+<!-- At 7 PM, transition to 9 PM (in 2 hours) and stay for 1 hours. -->
+<transition type="overlay">
+<duration>7200.0</duration>
+<from>/usr/share/backgrounds/gnome/18.jpg</from>
+<to>/usr/share/backgrounds/gnome/21.jpg</to>
+</transition>
+
+<static>
+<duration>3600.0</duration>
+<file>/usr/share/backgrounds/gnome/21.jpg</file>
+</static>
+
+<!-- At 10 PM, transition to 12 PM (in 2 hours). -->
+<transition type="overlay">
+<duration>7200.0</duration>
+<from>/usr/share/backgrounds/gnome/21.jpg</from>
+<to>/usr/share/backgrounds/gnome/24.jpg</to>
+</transition>
+
+<!-- It's midnight. It'll stay dark for 2.75 hours up until 2:45 AM. -->
+<static>
+<duration>9936.0</duration>
+<file>/usr/share/backgrounds/gnome/24.jpg</file>
+</static>
+
+<!-- It's 2:45 AM. We'll start transitioning to, 3 AM, 4 hours before sunrise. -->
+<transition type="overlay">
+<duration>900.0</duration>
+<from>/usr/share/backgrounds/gnome/24.jpg</from>
+<to>/usr/share/backgrounds/gnome/3.jpg</to>
+</transition>
+</background>
